@@ -461,7 +461,7 @@ input {
     background: linear-gradient(#377C8A00,
             #377C8A);
     border: none;
-    bottom: 5px;
+    bottom: -100%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -513,7 +513,7 @@ input:focus {
     background-color: transparent !important;
     outline: none !important;
     height: 38px !important;
-    max-width: 100% !important;
+    width: 100% !important;
     border: 1px solid #75A5AE !important;
     padding-left: 8px !important;
     padding-right: 8px !important;
