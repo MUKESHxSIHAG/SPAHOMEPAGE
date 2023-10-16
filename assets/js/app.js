@@ -45,6 +45,21 @@ backToTopButton.addEventListener('click', () => {
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    const playButton = document.getElementById("playButton");
+    const video = document.getElementById("video");
+
+    playButton.addEventListener("click", function () {
+        if (video.paused) {
+            video.play();
+            playButton.textContent = "Pause Video";
+        } else {
+            video.pause();
+            playButton.textContent = "Play Video";
+        }
+    });
+});
+
 
 
 
