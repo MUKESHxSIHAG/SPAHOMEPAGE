@@ -52,9 +52,33 @@
     bottom: -49px;
     right: -12px;
 }
+
 .laptopbg1 {
     bottom: -49px;
     left: -12px;
+}
+
+.header_1 {
+    top: 100px;
+    left: 0;
+}
+
+.header_2 {
+    top: 160px;
+    left: 0px;
+}
+
+.header_3 {
+    top: 30px;
+}
+
+.header_4 {
+    top: 100px;
+}
+
+.img_5 {
+    bottom: 94px;
+    right: 57px;
 }
 
 /* *****Navbar***** */
