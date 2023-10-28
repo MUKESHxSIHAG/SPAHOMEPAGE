@@ -272,6 +272,7 @@ input {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+    width: 100% !important;
 }
 
 .border-50 {
@@ -296,6 +297,26 @@ input {
 .bgDashboard {
     background-color: F9FEFF;
     border-radius: 0px 0px 20px 0px;
+}
+
+#cards.card1:hover{
+    background-color: #377C89 !important;
+        transition: all 300ms linear !important;
+}
+
+#cards{
+    transition: all 300ms linear !important;
+}
+
+#cards:hover  h3.headings{
+    background-color: #5F96A1 !important;
+        transition: all 300ms linear !important; 
+}
+
+#cards:hover h3, 
+#cards:hover p{
+    color:#ffffff !important;
+        transition: all 300ms linear !important;
 }
 
 .dashboardBtn {
